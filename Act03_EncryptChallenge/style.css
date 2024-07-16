@@ -1,31 +1,61 @@
-.wordleBoard {
-    justify-content: center;
-    max-width: 500px;
-    height: 100%;
-    margin: 1% auto;
+.encryptDecrypt {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5% 0%;
+    height: 90%;
+    
+}
+textarea {
+    height: 80%;
 }
 
-.wordleRow {
-    display: grid;
-    grid-template-columns: repeat(5, 75px);
-    margin: 10px auto;
-    justify-content: center;
+#sourceText {
+    width: 70%;
+    background-color: #f3f5fc;
+    border: 0cap;
+    resize: none;
+    font-size: x-large;
 }
 
-.gridItem {
+#targetText {
+    width: 20%;
+    background-color: white;
+    border: 0cap;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px #8b8a8a;
+    font-size: x-large;
+
+}
+
+.buttonControls {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-content:space-between;
+}
+.buttonControl {
+    width: 200px;
+    height: 50px;
+    margin: 1% 5% 0%;
+}
+
+#encryptButton {
+    background-color: #0a3871;
     color: whitesmoke;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1.5px;
-    font-size: xx-large;
-    line-height:  65px;
-    text-align: center;
-    height: 65px;
-    width: 65px;
+    border-radius: 10px;
+}
+
+#decryptButton {
+    background-color: #eff1fa;
+    color: #072b61;
+    border-radius: 10px;
+    border-color: #0a3871;
+    border-width: 1px;
 }
 
 body {
-    background-color: black;
+    background-color: #f3f5fc;
     color: whitesmoke;
     font: Sans-serif;
     font-weight: bolder;

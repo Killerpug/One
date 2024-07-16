@@ -5,62 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>JS Game</title>
+    <title>Encrypt Challenge</title>
 </head>
 
 <body>
-    <h1 style="text-align: center;"> Wordle</h1>
-    <div class="wordleBoard">
-        <div class="wordleRow" id="row1">
-            <div class="gridItem">A</div>
-            <div class="gridItem">B</div>
-            <div class="gridItem">C</div>
-            <div class="gridItem">D</div>
-            <div class="gridItem">E</div>
-        </div>
-        <div class="wordleRow" id="row2">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row3">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row4">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row5">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row6">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-    </div>
+    <div class="app">
+        <div class="encryptDecrypt">
+            <textarea rows="20" name="textToEncrypt" id="sourceText" placeholder="Enter Text here."></textarea>
 
-    <div class="wordleKeyBoard">
+            <textarea rows="20" name="encryptedText" id="targetText">
 
+            </textarea>
+        </div>
+        <div class="buttonControls">
+            <button type="button" class="buttonControl" id="encryptButton">Encrypt</button>
+            <button type="button" class="buttonControl" id="decryptButton">Decrypt</button>
+        </div>
+    
 
     </div>
 
-    <textarea rows="5" name="test-target" id="test-target"></textarea>
+
+    
 
 
 
