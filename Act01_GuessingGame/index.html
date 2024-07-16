@@ -9,58 +9,23 @@
 </head>
 
 <body>
-    <h1 style="text-align: center;"> Wordle</h1>
-    <div class="wordleBoard">
-        <div class="wordleRow" id="row1">
-            <div class="gridItem">A</div>
-            <div class="gridItem">B</div>
-            <div class="gridItem">C</div>
-            <div class="gridItem">D</div>
-            <div class="gridItem">E</div>
-        </div>
-        <div class="wordleRow" id="row2">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row3">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row4">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row5">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
-        </div>
-        <div class="wordleRow" id="row6">
-            <div class="gridItem">1</div>
-            <div class="gridItem">2</div>
-            <div class="gridItem">3</div>
-            <div class="gridItem">4</div>
-            <div class="gridItem">5</div>
+
+    <div class="container">
+        <div class="container_content">
+            <div class="container_info">
+                <div class="container_text">
+                    <h1></h1>
+                    <p class="texto__parrafo"></p>
+                </div>
+                <input type="number" id="UserTry" min="1" max="10" class="container__input">
+                <div class="container_buttons">
+                    <button id="try_guess" onclick="verificarIntento();" class="container_button">Intentar</button>
+                    <button onclick="reiniciarJuego();" class="container_button" id="reiniciar" disabled>Nuevo juego</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="A person looking to the left" class="container_person" />
         </div>
     </div>
-
-    <div class="wordleKeyBoard">
-
-
-    </div>
-
-    <textarea rows="5" name="test-target" id="test-target"></textarea>
 
 
 
