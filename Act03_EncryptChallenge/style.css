@@ -10,7 +10,7 @@ textarea {
 }
 
 #sourceText {
-    width: 70%;
+    width: 50%;
     background-color: #f3f5fc;
     border: 0cap;
     resize: none;
@@ -18,7 +18,7 @@ textarea {
 }
 
 #targetText {
-    width: 20%;
+    width: 50%;
     background-color: white;
     border: 0cap;
     resize: none;
